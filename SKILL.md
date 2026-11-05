@@ -1,5 +1,5 @@
 ---
-name: memory-tagebuch
+name: memory-diary
 category: productivity
 version: 1.0.0
 author: Felix Morocutti (https://github.com/FelixM2011)
