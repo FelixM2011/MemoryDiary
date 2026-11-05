@@ -3,11 +3,11 @@
 Real files produced by running memory.py today (-c "-100TEST" and -y mode).
 
 ---- data_dir/-100TEST.md ----
-# Memory Tagebuch — -100TEST
+# Memory Diary — -100TEST
 
 
 [2026-11-05 15:46]
-Guten Morgen Martin, heute Testlauf
+Guten Morgen, heute Testlauf
 
 [GESPEICHERT]
 
