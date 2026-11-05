@@ -1,4 +1,4 @@
-# Memory diary 📔🇩🇪
+# Memory diary 📔
 
 A [Hermes agent skill](https://hermes-agent.nousresearch.com/docs) that durably records chat messages, memories and life experiences into plain-Markdown daily journals on disk — one file per chat (or per year + chat), zero cloud, zero API key. Built for the "save every message from this group / remember this experience" workflow: the agent appends exactly one timestamped entry per event and confirms with `[GESPEICHERT]`.
 
