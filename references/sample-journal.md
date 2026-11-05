@@ -19,7 +19,7 @@ dritter Zeile
 [GESPEICHERT]
 
 ---- data_dir/YYYY/42.md (yearly) ----
-# Memory Tagebuch — 42
+# Memory Diary — 42
 
 
 [2026-11-05 15:46]
