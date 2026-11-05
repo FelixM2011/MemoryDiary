@@ -30,13 +30,13 @@ def parse_args(argv):
 
     def take_value(flag):
         nonlocal i
-        if argv[i] == flag:
+        if argv[i] == flag:  # "-c VALUE" form
             if i + 1 >= n:
                 raise SystemExit(f"error: {flag} needs a value")
             val, i = argv[i + 1], i + 2
-        else:
-            val, i = argv[i][len(flag):], i + 1
-        return val if val else f"error: empty value for {flag}" and None
+        else:  # "--flag=VALUE" form (caller already checked the prefix)
+            val, i = argv[i][len(flag) + 1:], i + 1
+        return val or None
 
     while i < n:
         a = argv[i]
